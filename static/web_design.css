@@ -1,6 +1,7 @@
-/* for boobstrap icons*/
+/********************************* for boobstrap icons***********************************/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
-/* for transitions */
+
+/********************************* page transitions ************************************/
 .transition {
     animation: transitionIn 1.1s;
 }
@@ -32,3 +33,89 @@
         transform: translateY(0px);
     }
 }
+
+/************************************ navigation bar bullshit ***********************************/
+.navbar-customclass {
+
+    /* background-color:#c6e2ff; */
+    background-color:#003366;
+}
+/* changing brand text color*/
+.navbar-customclass .navbar-brand,
+.navbar-customclass .navbar-text {
+    color:white;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+/* navigation link text color */
+.navbar-customclass .navbar-nav .nav-link {
+    color:#3399ff;
+    padding-right: 30px;
+    font-size:19px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+/* navigation links anchor hover and active styles */
+.navbar-customclass .nav-item.active .nav-link,
+.navbar-customclass .nav-item:hover .nav-link {
+    color:white;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+ /********************** color theme, background, and formatting *************************/
+body {
+    background-color: black;
+    background-size: 50px 50px;
+    }
+            
+    .the-row {
+        background-color:#c6e2ff;
+        height: 400px;
+    }
+
+    .your-mom {
+        background-color: #3399ff;
+        color: white;
+        font-size: 17px;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    .padding {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+    }
+
+    .transition {
+        background-image: url("rainbow_background.jpg");
+        background-size: 1450px 1200px;
+    }
+
+    .head_wink_wink {
+        padding-bottom: 10px;
+        color: #3399ff;
+        font-size: 35px;
+        font-family: 'Times New Roman', serif;
+    }
+
+    .deez_nuts_subhead {
+        color: #3399ff;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        border-top: #c0c0c0;
+        font-family: 'Times New Roman', serif;
+    }
+
+    .peepee_desc {
+        padding-bottom: 10px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    .contact {
+        color: white;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
