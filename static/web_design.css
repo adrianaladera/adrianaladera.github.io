@@ -87,7 +87,8 @@ body {
     }
 
     .transition {
-        background-image: url("rainbow_background.jpg");
+        /* background-image: url("rainbow_background.jpg"); */
+        background-color: black;
         background-size: 1450px 1200px;
     }
 
