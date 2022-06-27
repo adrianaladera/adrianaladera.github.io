@@ -66,7 +66,8 @@
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    background-size:1450px 1200px;
+    /* background-size: cover; */
+    background-size:1450px 1450px;
     background-position:center;
 }
 
