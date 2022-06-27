@@ -4,15 +4,6 @@
 /********************************* page transitions ************************************/
 .transition {
     animation: transitionIn 1.1s;
-    background-image: url("black_hole_rainbow.jpg");
-    background-size: 1450px 1200px;
-}
-
-.transition2 {
-    /* background-image: url("star_background.jpg"); */
-    background-color: #100b27;
-    background-size: auto;
-    animation: transitionIn 1.1s;
 }
 
 @keyframes transitionIn {
@@ -68,9 +59,26 @@
 }
 
  /********************** color theme, background, and formatting *************************/
+ .homepage {
+     background-image: url("black_hole_rainbow.jpg");
+    /* background-size: 1450px 1200px; */
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:1450px 1200px;
+    background-position:center;
+}
+
+.other_pages {
+    background-image: url("star_background.jpg");
+    /* background-color: #100b27; */
+    background-size: auto;
+}
+
 body {
-    background-color: black;
-    background-size: 50px 50px;
+    background-image: url("star_background.jpg");
+    background-size: auto;
     }
             
     .the-row {
@@ -97,24 +105,24 @@ body {
     }
 
     .deez_nuts_subhead {
-        font-size: 30px;
+        font-size: 27px;
         padding-left: 30px;
         padding-top: 10px;
         border-top: #c0c0c0;
-        color: #dc4fd7;
+        color: #3f77fa;
         font-family: 'Geneva', sans-serif;
     }
 
     .peepee_desc {
         padding-bottom: 10px;
         color: #94dbff;
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'Geneva', sans-serif;
     }
 
     .contact {
         color: #94dbff;
-        font-size: 18px;
+        font-size: 17px;
         font-family: 'Geneva', sans-serif;
     }
 
