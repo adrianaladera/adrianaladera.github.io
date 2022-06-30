@@ -59,37 +59,40 @@
 }
 
  /********************** color theme, background, and formatting *************************/
- .homepage {
-     background-image: url("black_hole_rainbow.jpg");
-    /* background-size: 1450px 1200px; */
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    /* background-size: cover; */
-    background-size:1450px 1450px;
-    background-position:center;
-}
-
-.other_pages {
-    background-image: url("star_background.jpg");
-    /* background-color: #100b27; */
-    background-size: auto;
-}
-
-body {
-    background-image: url("star_background.jpg");
-    background-size: auto;
+    .homepage {
+        background-image: url("black_hole_rainbow.jpg");
+        /* background-size: 1450px 1200px; */
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        /* background-size: cover; */
+        background-size:1450px 1450px;
+        background-position:center;
     }
-            
+
+    .other_pages {
+        background-image: url("star_background.jpg");
+        /* background-color: #100b27; */
+        background-size: auto;
+    }
+
+    body {
+        background-image: url("star_background.jpg");
+        background-size: auto;
+        }
+
     .the-row {
         background-color:#c6e2ff;
         height: 400px;
     }
 
     .your-mom {
-        background-color: #c01bba;
-        color: white;
+        /* background-color: #c01bba; */
+        /* border-color: #94dbff; */
+        /* color: #94dbff; */
+        border-color: #3f77fa;
+        color:#3f77fa;
         font-size: 17px;
         font-family: 'Trebuchet MS', sans-serif;
     }
@@ -100,14 +103,15 @@ body {
     }
 
     .head_wink_wink {
-        color: #dc4fd7;
+        /* color: #dc4fd7; */
+        color: #3f77fa;
         font-size: 35px;
         font-family: 'Geneva', sans-serif;
     }
 
     .deez_nuts_subhead {
-        font-size: 27px;
-        padding-left: 30px;
+        font-size: 25px;
+        padding-left: 10px;
         padding-top: 10px;
         border-top: #c0c0c0;
         color: #3f77fa;
@@ -116,16 +120,52 @@ body {
 
     .peepee_desc {
         padding-bottom: 10px;
-        color: #94dbff;
-        font-size: 18px;
-        font-family: 'Geneva', sans-serif;
-    }
-
-    .contact {
-        color: #94dbff;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* color: #94dbff; */
+        color: white;
         font-size: 17px;
         font-family: 'Geneva', sans-serif;
     }
 
+    .peepee_small {
+        /* color: #94dbff; */
+        color: white;
+        font-size: 15px;
+        font-family: 'Geneva', sans-serif;
+    }
+
+    .row .align_head{
+        text-align:left;
+        padding-left:130px;
+        }
+
+    .row .align_subhead{
+        text-align:left;
+        padding-left:160px;
+        }
+/* ******************************************** link styling ******************************************** */
+    a:link {
+    text-decoration: none;
+    color: #31aafb;
+    }
+
+    a:visited {
+    text-decoration: none;
+    color: #31aafb;
+    }
+
+    .link_style {
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18.5px;
+        font-family: 'Geneva', sans-serif;
+    }
+
+    .left_pad {
+        padding-left: 30px;
+    }
+      
 
 

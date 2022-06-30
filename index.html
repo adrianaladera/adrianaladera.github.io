@@ -10,136 +10,128 @@
     <link rel="stylesheet" href="static/web_design.css">
 </head>
 <body>
-        <nav class="navbar navbar-customclass navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class=" navbar-mobile navbar-toggler-icon icon" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></span>
-                </button>
-                <div class="navbar-mobile collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                        <a class="nav-link" href="index.html">
-                            Home  <i class="bi-house-door-fill" style="font-size: 1.5rem;"></i>
-                        </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="templates/publications.html">
-                            Research    <i class="bi-search" style="font-size: 1.5rem;"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="templates/piano.html">
-                            Piano Portfolio <i class="bi-music-note-beamed" style="font-size: 1.5rem;"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="templates/links.html">
-                            Other Links <i class="bi-link" style="font-size: 1.5rem;"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            </nav>
+    <nav class="navbar navbar-customclass navbar-expand-lg">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=" navbar-mobile navbar-toggler-icon icon" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></span>
+        </button>
+        <div class="navbar-mobile collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                        Home  <i class="bi-house-door-fill" style="font-size: 1.5rem;"></i>
+                </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="templates/research.html">
+                    Research    <i class="bi-search" style="font-size: 1.5rem;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="templates/piano.html">
+                    Piano Portfolio <i class="bi-music-note-beamed" style="font-size: 1.5rem;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="templates/links.html">
+                    Other Links <i class="bi-link" style="font-size: 1.5rem;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        
 
-            <!-- for mobile sites -->
-            <script>
-                function myFunction() {
-                  var x = document.getElementById("mynavbar-mobile");
-                  if (x.className === "navbar-mobile") {
-                    x.className += " responsive";
-                  } else {
-                    x.className = "navbar-mobile";
-                  }
+        <!-- for mobile sites -->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("mynavbar-mobile");
+                if (x.className === "navbar-mobile") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar-mobile";
                 }
-            </script>
+            }
+        </script>
 
-            <div class="homepage">
-                <div class="transition">
-                    <div class="row">
-                        <center>
-                        <p class="padding"></p>
-                        <div class="col-sm-6 head_wink_wink">
-                            Hi, I'm Adriana Ladera!
-                        </div>
-                        <!-- <div class="col-sm-6 head_wink_wink">
-                            <i class="bi-egg" style="font-size: 1.5rem;"></i>
-                            <i class="bi-arrow-right" style="font-size: 1.5rem;"></i>
-                            <i class="bi-egg-fried" style="font-size: 1.5rem;"></i>
-                        </div> -->
-                        </center>
-                        <p class="padding"></p>
-                        <center>
-                        <div class="col-sm-6">
-                            <img src="static/profile_picture.jpg", width="325", height="325"/>
-                        </div>  
-                        </center> 
-                        
-                        <p>
-                            <!-- empty space -->
-                        </p>
-                        <center>
-                        <div class="col-sm-6 contact">
-                            Center for Computational Science and Engineering
-                        </div>
-                        </center>
-                        <center>
-                            <div class="col-sm-6 contact">
-                                Massachusetts Institute of Technology, Cambridge, MA 02139
-                            </div>
-                            </center>
-                        <center>
-                            <div class="col-sm-6 contact">
-                                aladera@mit.edu
-                            </div>
-                            </center>
-                        <p>
-                            <!-- empty space -->
-                        </p>
-                        <center>
-                        <div class="col-sm-6">
-                            <button class="btn your-mom" onclick="window.location.href='https://scholar.google.com/citations?user=AwjHWE0AAAAJ&hl=en&oi=ao';">
-                                Google Scholar
-                            </button>
-                            <button class="btn your-mom" onclick="window.location.href='https://www.linkedin.com/in/adriana-ladera-84b18a171/';">
-                                Linkedin
-                            </button>
-                            <button class="btn your-mom" onclick="window.location.href='https://github.com/adrianaladera';">
-                                Github
-                            </button>
-                        </div>
-                        </center>
-                        
+        <div class="homepage">
+            <div class="container">
+            <div class="transition">
+                <div class="row">
+                    <center>
+                    <p class="padding"></p>
+                    <div class="col-sm-6 head_wink_wink">
+                        Hi, I'm Adriana Ladera!
                     </div>
-                    <p>
-                        <!-- empty space -->
-                    </p>
-                    <p>
-                        <!-- empty space -->
-                    </p>
-                    <div class="container padding">
-                        <div class="row peepee_desc justify-content-center align-items-center">
-                            <div class="col-md-9">
-                                <p>
-                                Hey friend! I'm Adriana, and I'm a Computational Science and Engineering graduate student at the Massachusetts Institute of Technology.
-                                My research interests are numerical methods and algorithms, high-performance scientific computing, 
-                                modeling and simulation, and computational geometry. I completed my B.S. in computer science with a minor in physics at the University of South Florida, and am also a recipient of the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a>.
-                                </p>
-                                <p>
-                                Post-graduate school, I eventually plan to pursue a career as professor or industry research scientist, 
-                                with priority goals in (I) pushing for diversity and inclusivity in STEM, namely for women, people of color, and LGBTQ+ identities, 
-                                and (II) helping to establish environmentally-conscious practices.
-                                </p>
-                                <p>
-                                Outside of the lab (aka my computer), I help to lobby with Congress on environmental concerns as a <a href="https://citizensclimatelobby.org/about-ccl/">Citizens' Climate Lobby</a> volunteer, and enjoy playing piano, rock climbing, and creating meme art!
-                                <i class="bi-emoji-laughing" style="font-size: 1.5rem;"></i>
-                                </p>
-                            </div>
+                    </center>
+                    <p class="padding"></p>
+
+                    <center>
+                    <div class="col-sm-6">
+                        <img src="static/profile_picture.jpg", width="325", height="325"/>
+                    </div>  
+                    </center> 
+                        
+                    <p class="padding"></p>
+                    <center>
+                    <div class="col-sm-6 contact">
+                        Center for Computational Science and Engineering
+                    </div>
+                    </center>
+                    <center>
+                    <div class="col-sm-6 contact">
+                        Massachusetts Institute of Technology, Cambridge, MA 02139
+                    </div>
+                    </center>
+                    <center>
+                    <div class="col-sm-6 contact">
+                        aladera@mit.edu
+                    </div>
+                    </center>
+                    <p class="padding"></p>
+                    <center>
+                    <div class="col-sm-6">
+                        <button class="btn your-mom" onclick="window.location.href='https://scholar.google.com/citations?user=AwjHWE0AAAAJ&hl=en&oi=ao';">
+                            Google Scholar
+                        </button>
+                        <button class="btn your-mom" onclick="window.location.href='https://www.linkedin.com/in/adriana-ladera-84b18a171/';">
+                            Linkedin
+                        </button>
+                        <button class="btn your-mom" onclick="window.location.href='https://github.com/adrianaladera';">
+                            Github
+                        </button>
+                    </div>
+                    </center> 
+                <!-- end row -->
+                </div>
+                <p class="padding"></p>
+                <p class="padding"></p>
+                <div class="container padding">
+                    <div class="row peepee_desc justify-content-center align-items-center">
+                        <div class="col-md-9">
+                            <p>
+                            Hey friend! I'm Adriana, and I'm a Computational Science and Engineering graduate student at the Massachusetts Institute of Technology.
+                            My research interests are numerical methods and algorithms, high-performance scientific computing, 
+                            modeling and simulation, and computational geometry. I completed my B.S. in computer science with a minor in physics at the University of South Florida, and am also a recipient of the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a>.
+                            </p>
+                            <p>
+                            Post-graduate school, I eventually plan to pursue a career as professor or industry research scientist, 
+                            with priority goals in (I) pushing for diversity and inclusivity in STEM, namely for women, people of color, and LGBTQ+ identities, 
+                            and (II) helping to establish environmentally-conscious practices.
+                             </p>
+                            <p>
+                            Outside of the lab (aka my computer), I help to lobby with Congress on environmental concerns as a <a href="https://citizensclimatelobby.org/about-ccl/">Citizens' Climate Lobby</a> volunteer, and enjoy playing piano, rock climbing, and creating meme art!
+                            <i class="bi-emoji-laughing" style="font-size: 1.5rem;"></i>
+                            </p>
                         </div>
                     </div>
                 </div>
-
+            <!-- end transition -->
+            </div>
+            <!-- end fluid container -->
+            </div>
+        <!-- end homepage -->
+        </div>
     <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
