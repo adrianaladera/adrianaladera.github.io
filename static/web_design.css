@@ -60,7 +60,7 @@
 
  /********************** color theme, background, and formatting *************************/
     .homepage {
-        background-image: url("black_hole_rainbow.jpg");
+        background-image: url("black_hole_rainbow.png");
         /* background-size: 1450px 1200px; */
         background-repeat:no-repeat;
         -webkit-background-size:cover;
