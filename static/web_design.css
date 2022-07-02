@@ -135,6 +135,10 @@
         font-family: 'Geneva', sans-serif;
     }
 
+    .position {
+        color: #6f6fdf;
+    }
+
     .row .align_head{
         text-align:left;
         padding-left:130px;
