@@ -60,26 +60,29 @@
 
  /********************** color theme, background, and formatting *************************/
     .homepage {
-        background-image: url("black_hole_rainbow.png");
+        /* background-image: url("black_hole_rainbow.png"); */
+        background-image: url("gradient_background_stars.png");
         /* background-size: 1450px 1200px; */
-        background-repeat:no-repeat;
+        /* background-repeat:no-repeat;
         -webkit-background-size:cover;
         -moz-background-size:cover;
-        -o-background-size:cover;
-        /* background-size: cover; */
+        -o-background-size:cover; */
+        background-size: cover;
         background-size:1450px 1450px;
         background-position:center;
     }
 
     .other_pages {
-        background-image: url("star_background.jpg");
+        /* background-image: url("star_background.jpg"); */
+        background-image: url("gradient_background_stars.png");
         /* background-color: #100b27; */
-        background-size: auto;
+        background-size: cover;
     }
 
     body {
-        background-image: url("star_background.jpg");
-        background-size: auto;
+        /* background-image: url("star_background.jpg"); */
+        background-image: url("gradient_background_stars.png");
+        background-size: cover;
         }
 
     .the-row {
