@@ -121,17 +121,29 @@
         font-family: 'Geneva', sans-serif;
     }
 
+    .deez_nuts_subsubhead {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+        border-top: #c0c0c0;
+        color: #cfa0f5;
+        font-family: 'Geneva', sans-serif;
+    }
+
     .peepee_desc {
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
         /* color: #94dbff; */
         color: white;
-        font-size: 17px;
+        font-size: 18px;
         font-family: 'Geneva', sans-serif;
     }
 
     .peepee_small {
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         /* color: #94dbff; */
         color: white;
         font-size: 15px;
